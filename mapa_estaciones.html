@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3867e9b8e59fca26a06f2740a1a48dc5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3867e9b8e59fca26a06f2740a1a48dc5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3867e9b8e59fca26a06f2740a1a48dc5 = L.map(
+                "map_3867e9b8e59fca26a06f2740a1a48dc5",
+                {
+                    center: [-33.5306, -71.5061],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4200e53c0ea210df6f825f1ee41f1cc2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4200e53c0ea210df6f825f1ee41f1cc2.addTo(map_3867e9b8e59fca26a06f2740a1a48dc5);
+        
+    
+            var marker_fafb20d137c11899dd3b7864d6ba0002 = L.marker(
+                [-33.5306, -71.5061],
+                {}
+            ).addTo(map_3867e9b8e59fca26a06f2740a1a48dc5);
+        
+    
+            var icon_c096194bb638f231f190d10a94134726 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fafb20d137c11899dd3b7864d6ba0002.setIcon(icon_c096194bb638f231f190d10a94134726);
+        
+    
+        var popup_ecb5713801e9fcc895166ff4a1d80e1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b47680ca92cda59a94b30765d0256ded = $(`<div id="html_b47680ca92cda59a94b30765d0256ded" style="width: 100.0%; height: 100.0%;"><b>San Antonio Lo Zarate</b><br>Clima: clear sky<br>Temperatura: 16.95 °C<br>Humedad: 63%<br>Viento: 27.79 km/h<br>Riesgo de Incendio: Bajo</div>`)[0];
+                popup_ecb5713801e9fcc895166ff4a1d80e1f.setContent(html_b47680ca92cda59a94b30765d0256ded);
+            
+        
+
+        marker_fafb20d137c11899dd3b7864d6ba0002.bindPopup(popup_ecb5713801e9fcc895166ff4a1d80e1f)
+        ;
+
+        
+    
+    
+            var marker_21fac309ff8b1548a1af89a7b6e14c1d = L.marker(
+                [-33.4111, -71.1678],
+                {}
+            ).addTo(map_3867e9b8e59fca26a06f2740a1a48dc5);
+        
+    
+            var icon_54f0a8e7c45da27d8902c5811a1bddfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_21fac309ff8b1548a1af89a7b6e14c1d.setIcon(icon_54f0a8e7c45da27d8902c5811a1bddfc);
+        
+    
+        var popup_274a110283f4bb3161b9e7fb0ab286bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38a287175a5031315b13b710de7e00dc = $(`<div id="html_38a287175a5031315b13b710de7e00dc" style="width: 100.0%; height: 100.0%;"><b>Curacavi</b><br>Clima: clear sky<br>Temperatura: 22.54 °C<br>Humedad: 33%<br>Viento: 15.26 km/h<br>Riesgo de Incendio: Bajo</div>`)[0];
+                popup_274a110283f4bb3161b9e7fb0ab286bd.setContent(html_38a287175a5031315b13b710de7e00dc);
+            
+        
+
+        marker_21fac309ff8b1548a1af89a7b6e14c1d.bindPopup(popup_274a110283f4bb3161b9e7fb0ab286bd)
+        ;
+
+        
+    
+    
+            var marker_445447c2950de111dbfd290e08bd2bed = L.marker(
+                [-32.9494, -71.4761],
+                {}
+            ).addTo(map_3867e9b8e59fca26a06f2740a1a48dc5);
+        
+    
+            var icon_b9d9f9193439351cb98bbf5785a3fab8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_445447c2950de111dbfd290e08bd2bed.setIcon(icon_b9d9f9193439351cb98bbf5785a3fab8);
+        
+    
+        var popup_e57ba50ad2b1ebf51455d134ef1870ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e71891c03f757ebc0f4a8db146be3839 = $(`<div id="html_e71891c03f757ebc0f4a8db146be3839" style="width: 100.0%; height: 100.0%;"><b>Torquemada</b><br>Clima: clear sky<br>Temperatura: 21.83 °C<br>Humedad: 40%<br>Viento: 22.21 km/h<br>Riesgo de Incendio: Bajo</div>`)[0];
+                popup_e57ba50ad2b1ebf51455d134ef1870ac.setContent(html_e71891c03f757ebc0f4a8db146be3839);
+            
+        
+
+        marker_445447c2950de111dbfd290e08bd2bed.bindPopup(popup_e57ba50ad2b1ebf51455d134ef1870ac)
+        ;
+
+        
+    
+    
+            var marker_6270dd901dbd06396bca565fe857de69 = L.marker(
+                [-33.1686, -71.1558],
+                {}
+            ).addTo(map_3867e9b8e59fca26a06f2740a1a48dc5);
+        
+    
+            var icon_1025f837d9cb215c1f587c94acac0dbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6270dd901dbd06396bca565fe857de69.setIcon(icon_1025f837d9cb215c1f587c94acac0dbe);
+        
+    
+        var popup_8cbed550fd62e4412ed40aa8b5bd4e57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd5dbc9bc6abe068c6849b275934ba53 = $(`<div id="html_cd5dbc9bc6abe068c6849b275934ba53" style="width: 100.0%; height: 100.0%;"><b>Colliguay</b><br>Clima: clear sky<br>Temperatura: 20.31 °C<br>Humedad: 34%<br>Viento: 11.81 km/h<br>Riesgo de Incendio: Bajo</div>`)[0];
+                popup_8cbed550fd62e4412ed40aa8b5bd4e57.setContent(html_cd5dbc9bc6abe068c6849b275934ba53);
+            
+        
+
+        marker_6270dd901dbd06396bca565fe857de69.bindPopup(popup_8cbed550fd62e4412ed40aa8b5bd4e57)
+        ;
+
+        
+    
+</script>
+</html>
